@@ -26,5 +26,6 @@
         // Additional Extensions Here
       ]
     }
-  }
+  },
+  "onCreateCommand": "bash -c \"echo 'get_short_path() { path=\\\"$PWD\\\"; echo \\\"${path#/workspaces/$(basename $(git rev-parse --show-toplevel 2>/dev/null))}\\\"; }' >> ~/.bashrc && echo 'export PS1=\\\"@\\\\u ➜ \\\\$(get_short_path) (\\\\$(git rev-parse --abbrev-ref HEAD 2>/dev/null)) \\\\$ \\\"' >> ~/.bashrc\""
 }
