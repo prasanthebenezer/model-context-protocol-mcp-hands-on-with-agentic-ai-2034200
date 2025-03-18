@@ -27,5 +27,5 @@
       ]
     }
   },
-  "onCreateCommand": "echo 'get_short_path() { repo_root=$(git rev-parse --show-toplevel 2>/dev/null); if [ -n \"$repo_root\" ]; then echo \"${PWD#\"$repo_root\"}\"; else echo \"$PWD\"; fi; }' >> ~/.bashrc && echo 'export PS1=\"@\\u ➜ \\$(get_short_path) (\\$(git rev-parse --abbrev-ref HEAD 2>/dev/null)) \\$ \"' >> ~/.bashrc"
+  "onCreateCommand": "echo 'get_short_path() { repo_root=$(git rev-parse --show-toplevel 2>/dev/null); if [ -n \"$repo_root\" ]; then echo \"${PWD#\"$repo_root\"}\"; else echo \"$PWD\"; fi; }' >> ~/.bashrc && echo 'export PS1=\"@mor10 ➜ \\$(get_short_path) (\\$(git rev-parse --abbrev-ref HEAD 2>/dev/null)) \\$ \"' >> ~/.bashrc"
 }
