@@ -14,17 +14,17 @@ To run the MCP servers in development mode using the MCP Inspector and test them
 This repository contains folders with supporting files for the course. 
 
 ### Example MCP Servers
-- `mcp-server-examples/text-assist`: Python MCP server with tools to count characters and words in any given text
-- `mcp-server-examples/open-meteo-weather`: Python MCP server with tools to get current and forecasted weather from Open-Meteo
-- `mcp-server-examples/projectDocumenter`: TypeScript MCP server with tools to summarize any project and generate comprehensive README.md documents
-- `mcp-server-examples/gh-models-comparison`: TypeScript MCP server with tools to list all available GitHub Models, compare models, and run completion comparisons between models
+- [`mcp-server-examples/text-assist`](mcp-server-examples/text-assist): Python MCP server with tools to count characters and words in any given text
+- [`mcp-server-examples/open-meteo-weather`](mcp-server-examples/open-meteo-weather): Python MCP server with tools to get current and forecasted weather from Open-Meteo
+- [`mcp-server-examples/projectDocumenter`](mcp-server-examples/projectDocumenter): TypeScript MCP server with tools to summarize any project and generate comprehensive README.md documents
+- [`mcp-server-examples/gh-models-comparison`](mcp-server-examples/gh-models-comparison): TypeScript MCP server with tools to list all available GitHub Models, compare models, and run completion comparisons between models
 
 ### Hands-on Practice
-- `gh-models-helper`: Starting point for "Building an advanced MCP server using TypeScript" 
+- [`gh-models-helper`](gh-models-helper): Starting point for "Building an advanced MCP server using TypeScript" 
 
 ### MCP Server Templates
-- `templates/mcp-server-python-template`: README.md file with step-by-step instructions to set up a bare-bones MCP server using the [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)
-- `templates/mcp-server-typescript-template`: Scaffolding and instructions to set up a bare-bones MCP server using the [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)
+- [`templates/mcp-server-python-template`](templates/mcp-server-python-template): README.md file with step-by-step instructions to set up a bare-bones MCP server using the [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)
+- [`templates/mcp-server-typescript-template`](templates/mcp-server-typescript-template): Scaffolding and instructions to set up a bare-bones MCP server using the [TypeScript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk)
 
 
 ## Branches
