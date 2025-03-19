@@ -1,4 +1,9 @@
-# A bare-bones MCP
+# MCP Server Python Template
+
+Follow the step-by-step instructions below to build an MCP server project from scratch using the [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk).
+
+> NOTE:
+> This template only contains a README.md file.
 
 ## Setup
 
@@ -21,17 +26,21 @@
    ```bash
    uv init
    ```
+
 3. Create a virtual environment
+
    ```bash
    uv venv
    ```
 
 4. Start the virtual environment
+
    ```bash
    source .venv/bin/activate
    ```
 
    NOTE: To stop the virtual environment:
+
    ```bash
    deactivate
    ```
@@ -62,8 +71,9 @@
    4. Click "Edit Config"
 
    File location:
-   MacOS / Linux `~/Library/Application/Support/Claude/claude_desktop_config.json`
-   Windows `AppData\Claude\claude_desktop_config.json`
+
+   - MacOS / Linux `~/Library/Application/Support/Claude/claude_desktop_config.json`
+   - Windows `AppData\Claude\claude_desktop_config.json`
 
 5. Find the full path to `uv`:
    MacOS / Linux:
@@ -78,14 +88,14 @@
    Example:
    ```json
    "weather": {
-      "command": "/Users/mrh/.local/bin/uv",
+      "command": "/absolute/path/to/uv",
       "args": [
         "run",
         "--with",
         "mcp[cli]",
         "mcp",
         "run",
-        "/Users/mrh/Documents/mcp-playground/weather/weather.py"
+        "/absolute/path/to/your/server.py"
       ]
     },
    ```
